@@ -1,0 +1,61 @@
+#footer-bg {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   height: 300px;
+}
+
+.footer-conteudo {
+   padding: 80px 60px;
+}
+
+.footer-conteudo h3 {
+   font-family: "Poppins";
+   font-weight: 500;
+   font-size: 18px;
+   color: #000000;
+   padding-bottom: 25px;
+}
+
+.footer-conteudo p {
+   display: block;
+   color: #000000;
+   font-family: "Montserrat";
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 40px;
+}
+
+.footer-conteudo a {
+   color: #000000;
+   font-family: "Montserrat";
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 40px;
+}
+
+.footer-links-social {
+   display: flex;
+   gap: 10px;
+   padding: 0;
+}
+
+.footer-links-social li a img {
+   width: 40px;
+   transition: transform 0.3s ease;
+}
+
+.footer-links-social li a:hover img {
+   transform: scale(1.2);
+}
+
+.footer-bar  {
+   width: 100%;
+   background-color: var(--cor-sombra-1);
+   text-align: center;
+   padding: 20px 0;
+   font-family: "Montserrat";
+   font-size: 15px;
+   font-weight: 600;
+   color: #ffffff;
+}

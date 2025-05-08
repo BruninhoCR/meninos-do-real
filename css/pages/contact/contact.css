@@ -1,0 +1,27 @@
+#contato {
+   margin-top: 80px;
+   padding: 100px;
+   text-align: center;
+   background-color: var(--cor-fundo-3);
+}
+
+.contato-conteudo {
+   display: inline-block;
+   max-width: 700px; /* ou outro valor menor que a largura total da tela */
+   margin: 0 auto;
+   text-align: center;
+}
+
+.contato-conteudo h1 {
+   font-family: "Poppins";
+   font-weight: 600;
+   font-size: 35px;
+}
+
+.contato-conteudo p {
+   font-family: "Montserrat";
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   margin: 20px 0;
+}

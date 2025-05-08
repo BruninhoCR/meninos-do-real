@@ -1,0 +1,69 @@
+.valores-layout {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 50px;
+   margin: 0px 80px 12px 80px;
+   padding-top: 60px;
+}
+
+.valores-conteudo {
+   display: inline-block;
+   margin: 0px 80px 12px 80px;
+   text-align: left;
+   padding-top: 100px;
+
+}
+
+.valores-conteudo h3 {
+   font-family: "Poppins";
+   font-weight: 400;
+   font-size: 30px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+.valores-conteudo span {
+   font-family: "Poppins";
+   font-weight: 700;
+   font-size: 30px;
+}
+
+.valores-conteudo p {
+   font-family: "Montserrat";
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.3;
+}
+
+.valores-cards {
+   background: var( --cor-fundo-1);
+   border-radius: 5px;
+   text-align: center;
+   padding: 50px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+   transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.valores-cards:hover {
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+   transform: translateY(-5px);
+}
+
+.valores-cards img {
+   width: 20%;
+}
+
+.valores-cards h2 {
+   font-family: "Poppins";
+   font-weight: 500;
+   font-size: 23px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+.valores-cards p {
+   font-family: "Montserrat";
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.3;
+}
