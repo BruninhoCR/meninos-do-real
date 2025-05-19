@@ -8,5 +8,6 @@
    --cor-botao: #FDCB02;
    --cor-wpp: #4aeb44;
    --cor-botao-sombra: #f8cd23;
-   --cor-detalhe: #FDCB02
+   --cor-detalhe:#FDCB02;
+   --cor-fundo-botao: rgba(73, 73, 73, 0.979);
 }

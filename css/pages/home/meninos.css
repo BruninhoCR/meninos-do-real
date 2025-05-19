@@ -1,15 +1,13 @@
+/* Estilo Mobile*/
 #meninos {
-   flex-wrap: wrap;
-   padding: 120px 60px 60px;
-   position: relative;
    display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   padding: 100px 60px 60px 60px;
    align-content: center;  
-   padding-top: 100px;
    background-image: url(/img/InShot_20250208_021234073.jpg);
    background-size: cover;
-   background-position: center;
    background-repeat: no-repeat;
-   min-height: 550px; /* você pode ajustar essa altura */
    z-index: 1;
 }
 
@@ -31,8 +29,8 @@
 
 .meninos-conteudo h2 {
    font-family: "Poppins";
-   font-weight: 400;
-   font-size: 25px;
+   font-weight: 300;
+   font-size: 22px;
    padding-bottom: 25px;
    color: white;
 }
@@ -40,14 +38,128 @@
 .meninos-conteudo span {
    font-family: "Poppins";
    font-weight: 500;
-   font-size: 25px;
+   font-size: 22px;
 }
 
 .meninos-conteudo p {
    font-family: "Montserrat";
    font-weight: 400;
-   font-size: 18px;
-   padding-bottom: 75px;
-   line-height: 1.3;
+   font-size: 16px;
+   padding-bottom: 45px;
+   line-height: 1.5;
    color: white;
+}
+
+/* Estilo Tablet */
+@media screen and (min-width: 768px) {
+      #meninos {
+      flex-wrap: wrap;
+      padding: 120px 60px 60px;
+      position: relative;
+      display: flex;
+      align-content: center;  
+      padding-top: 100px;
+      background-image: url(/img/InShot_20250208_021234073.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 550px; /* você pode ajustar essa altura */
+      z-index: 1;
+   }
+
+   #meninos::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--cor-sombra-1);
+      opacity: 60%;
+      z-index: -1;
+   }
+
+   .meninos-conteudo {
+      text-align: center ;
+   }
+
+   .meninos-conteudo h2 {
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 25px;
+      padding-bottom: 25px;
+      color: white;
+   }
+
+   .meninos-conteudo span {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 25px;
+   }
+
+   .meninos-conteudo p {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 18px;
+      padding-bottom: 75px;
+      line-height: 1.3;
+      color: white;
+   }
+}
+
+/* Estilo Desktop */
+@media screen and (min-width: 1024px) {
+      #meninos {
+      flex-wrap: wrap;
+      padding: 120px 60px 60px;
+      position: relative;
+      display: flex;
+      align-content: center;  
+      padding-top: 100px;
+      background-image: url(/img/InShot_20250208_021234073.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 550px; /* você pode ajustar essa altura */
+      z-index: 1;
+   }
+
+   #meninos::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--cor-sombra-1);
+      opacity: 60%;
+      z-index: -1;
+   }
+
+   .meninos-conteudo {
+      text-align: center ;
+   }
+
+   .meninos-conteudo h2 {
+      font-family: "Poppins";
+      font-weight: 400;
+      font-size: 25px;
+      padding-bottom: 25px;
+      color: white;
+   }
+
+   .meninos-conteudo span {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 25px;
+   }
+
+   .meninos-conteudo p {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 18px;
+      padding-bottom: 75px;
+      line-height: 1.3;
+      color: white;
+   }
 }

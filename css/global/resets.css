@@ -24,13 +24,10 @@ h1, a {
 }
 
 img {
+   display: flex;
+   justify-items: center;
+   flex-wrap: wrap;
    border-radius: 3px;
    max-width: 100%;
-
 }
 
-body {
-   max-width: auto;
-   margin-left: auto;
-   margin-right: auto;
-}

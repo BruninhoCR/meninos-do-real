@@ -29,10 +29,10 @@
 
 .botao-secundario {
    display: inline-block;
-   padding: 20px 30px 15px;
-   font-family: "Roboto";
+   padding: 20px;
+   font-family: "Poppins";
    font-weight: 600;
-   font-size: 16px;
+   font-size: 15px;
    background: var(--cor-botao);
    border-radius: 4px;
 }
@@ -42,20 +42,13 @@
    transition: 0.9s;
 }
 
-.botao-wpp {
-   display: inline-block;
-  margin-top: 20px;
-  background-color: #25D366;
-  font-family: "Roboto";
-  color: rgb(0, 0, 0);
-  padding: 12px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.botao-wpp:hover {
-  background-color: #3fe67c;
-  transition: 0.8s ease;
+.botao-projetos {
+   display: flex;
+   justify-self: center;
+   padding: 20px 42px 20px 42px;
+   background: var(--cor-botao);
+   border-radius: 4px;
+   font-family: "Poppins";
+   font-weight: 600;
+   font-size: 16px;
 }

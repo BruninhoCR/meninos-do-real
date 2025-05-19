@@ -3,8 +3,8 @@
 
 /* COMPONENTS */
 @import url("/css/components/utilitarios.css");
-@import url("/components/tipografia.css");
 @import url("/css/components/botoes.css");
+@import url("/css/components/menu-hamburguer.css");
 
 /* PAGES: HOME */
 @import url("/css/pages/home/header.css");
@@ -15,11 +15,7 @@
 /* PAGES: QUEM SOMOS */
 @import url("/css/pages/about/quem-somos.css");
 @import url("/css/pages/about/nosso-proposito.css");
-@import url("/css/pages/about/proposito.css");
 @import url("/css/pages/about/valores.css");
 
 /* PAGES: PROJETOS */
 @import url("/css/pages/projects/projetos.css");
-
-/* PAGES: CONTATO */
-@import url("/css/pages/contact/contact.css");

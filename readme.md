@@ -2,6 +2,8 @@
 
 Projeto desenvolvido para uma ONG onde me voluntariei para ajuda-los a desenvolver um website. Foi desenvolvido com HTML, CSS e JavaScript, com design **minimalista**, focado em desempenho, responsividade e estética limpa.
 
+![alt text](img-projeto.png)
+
 ## ✨ Funcionalidades
 
 - Layout 100% responsivo (mobile-first);
@@ -9,7 +11,15 @@ Projeto desenvolvido para uma ONG onde me voluntariei para ajuda-los a desenvolv
 - Seções organizadas em **diferentes páginas**;
 - Animações leves e modernas (JS e CSS);
 
-## 🧩 Estrutura do Projeto
+### 🧩 Estrutura do Projeto
+
+* **HTML separado por página**: Cada seção principal do site possui seu próprio arquivo HTML.
+
+* **CSS centralizado**: Um único arquivo style.css gerencia todo o visual do site.
+
+* **JavaScript modula**: Script principal em main.js, com animações e interações.
+
+* **Assets organizados**: Imagens, fontes e estilos mantidos em pastas específicas para melhor manutenção.
 
 ### 🖼️ Seções
 * **Home**: Nome, título, frase de impacto e botões;
@@ -35,9 +45,3 @@ Projeto desenvolvido para uma ONG onde me voluntariei para ajuda-los a desenvolv
 
 ### 📄 Licença
 Feito por Bruno César Rocha da Silva
-
-Meninos do Real  é uma organização dedicada a transformar a vida de crianças e adolescentes em situação de vulnerabilidade social. Acreditamos no poder do esporte como ferramenta de inclusão e desenvolvimento, proporcionando treinos de futebol que vão além do campo: são oportunidades de aprendizado, disciplina e crescimento pessoal.
-
-Nosso trabalho não se resume ao esporte. Oferecemos acolhimento familiar, social e emocional, garantindo que cada criança e adolescente atendido receba apoio para enfrentar desafios e construir um futuro melhor. Com amor, cuidado e compromisso, atendemos atualmente 100 crianças e adolescentes, promovendo não apenas o bem-estar físico, mas também valores essenciais para a vida, como respeito, solidariedade e perseverança.
-
-Aqui, o esporte se une à saúde, ao amor e à esperança, mostrando que, com as oportunidades certas, todos podem sonhar e alcançar um futuro promissor.# meninos-do-real
