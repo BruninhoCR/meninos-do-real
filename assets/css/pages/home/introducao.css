@@ -110,93 +110,54 @@
 
 /* Estilo Desktop */
 @media screen and (min-width: 1024px) {
-   #header-bg {
-      position: relative;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      background-image: url('/img/IMG-20250406-WA0022.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 650px; /* você pode ajustar essa altura */
-      z-index: 1;
+   #introducao-bg {
+      display: inline-block;
+      justify-content: left;
+      padding: 120px 60px 60px;
+      padding-bottom: 200px;
    }
 
-   #header-bg::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: var(--cor-sombra-1);
-      opacity: 80%;
-      z-index: -1;
-   }
-
-   .header-layout {
-      display: flex;
-      justify-content: space-between;
-      box-sizing: border-box;
-      padding: 30px;
-   }
-
-   .header-layout h1 {
-      font-family: "Poppins";
-      font-weight: 500;
-      font-size: 20px;
-      color: #ffffff;
-   }
-
-   .header-conteudo {
-      text-align: center;
-      margin-top: 200px;
-   }
-
-   .header-conteudo h2 {
-      color: #ffffff;
+   .introducao-conteudo h3 {
       font-family: "Poppins";
       font-weight: 400;
-      font-size: 25px;
+      font-size: 30px;
+      padding-bottom: 25px;
    }
 
-   .header-conteudo span {
-      color: #ffffff;
+   .introducao-conteudo span {
       font-family: "Poppins";
-      font-weight: 500;
-      font-size: 25px;
+      font-weight: 700;
+      font-size: 30px;
    }
 
-   .header-conteudo p {
-      padding-top: 15px;
-      color: #ffffff;
-      font-family: "Poppins";
-      font-weight: 300;
+   .introducao-conteudo p {
+      font-family: "Montserrat";
+      font-weight: 400;
       font-size: 18px;
+      padding-bottom: 75px;
+      line-height: 1.3;
    }
 
-   .header-menu {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 45px;
+   .introducao-frame {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 36px;
+      height: 470px;
+   }
+
+   .introducao-frame h3 {
       font-family: "Poppins";
       font-weight: 500;
+      font-size: 22px;
+      padding-top: 32px;
+   }
+
+   .introducao-frame p {
+      font-family: "Montserrat";
+      font-weight: 400;
       font-size: 16px;
-      color: #ffffff;
-   }
-
-   .header-menu li::after {
-      content: " ";
-      position: relative;
-      width: 0%;
-      height: 10%;
-      display: block;
-      background: var(--cor-detalhe);
-   }
-
-   .header-menu li:hover::after {
-      width: 100%;
-      transition: 0.8s;
-   }
+      padding-top: 18px;
+      padding-bottom: 22px;
+      line-height: 1.3;
+   }  
 }

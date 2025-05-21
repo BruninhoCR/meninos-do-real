@@ -216,7 +216,6 @@
       margin-top: 100px;
       margin-bottom: 100px;
       padding: 46px;
-      background-color: var(--cor-fundo-3);
    }
 
    .projetos-card {
@@ -227,8 +226,7 @@
 
    .projetos-imagem {
       padding: 0px 50px 0px 50px;
-      border-color: var(--cor-fundo-2);
-   }
+    }
 
    .projetos-conteudo h4 {
       font-family: "Poppins";

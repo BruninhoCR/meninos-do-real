@@ -1,0 +1,21 @@
+/* GLOBAL */
+@import url("global/resets.css");
+
+/* COMPONENTS */
+@import url("components/utilitarios.css");
+@import url("components/botoes.css");
+@import url("components/menu-hamburguer.css");
+
+/* PAGES: HOME */
+@import url("pages/home/header.css");
+@import url("pages/home/introducao.css");
+@import url("pages/home/meninos.css");
+@import url("pages/home/footer.css");
+
+/* PAGES: QUEM SOMOS */
+@import url("pages/about/quem-somos.css");
+@import url("pages/about/nosso-proposito.css");
+@import url("pages/about/valores.css");
+
+/* PAGES: PROJETOS */
+@import url("pages/projects/projetos.css");
