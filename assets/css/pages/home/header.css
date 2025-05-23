@@ -162,7 +162,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-    background-image: url('/assets/img/IMG-20250406-WA0022.jpg');
+      background-image: url('/assets/img/IMG-20250406-WA0022.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;

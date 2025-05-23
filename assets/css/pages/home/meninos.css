@@ -1,53 +1,56 @@
 /* Estilo Mobile*/
-#meninos {
-   display: flex;
-   flex-wrap: wrap;
-   position: relative;
-   padding: 100px 60px 60px 60px;
-   align-content: center;  
-   background-image: url('assets/img/InShot_20250208_021234073.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   z-index: 1;
-}
+@media screen and (max-width: 730px) {
+   #meninos {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      padding: 100px 60px 60px 60px;
+      align-content: center;  
+      background-image: url('/assets/img/InShot_20250208_021234073.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: 1;
+   }
+   
+   #meninos::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--cor-sombra-1);
+      opacity: 60%;
+      z-index: -1;
+   }
+   
+   .meninos-conteudo {
+      text-align: center ;
+   }
+   
+   .meninos-conteudo h2 {
+      font-family: "Poppins";
+      font-weight: 300;
+      font-size: 22px;
+      padding-bottom: 25px;
+      color: white;
+   }
+   
+   .meninos-conteudo span {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 22px;
+   }
+   
+   .meninos-conteudo p {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 16px;
+      padding-bottom: 45px;
+      line-height: 1.5;
+      color: white;
+   }
 
-#meninos::before {
-   content: "";
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: var(--cor-sombra-1);
-   opacity: 60%;
-   z-index: -1;
-}
-
-.meninos-conteudo {
-   text-align: center ;
-}
-
-.meninos-conteudo h2 {
-   font-family: "Poppins";
-   font-weight: 300;
-   font-size: 22px;
-   padding-bottom: 25px;
-   color: white;
-}
-
-.meninos-conteudo span {
-   font-family: "Poppins";
-   font-weight: 500;
-   font-size: 22px;
-}
-
-.meninos-conteudo p {
-   font-family: "Montserrat";
-   font-weight: 400;
-   font-size: 16px;
-   padding-bottom: 45px;
-   line-height: 1.5;
-   color: white;
 }
 
 /* Estilo Tablet */
@@ -137,6 +140,8 @@
    }
 
    .meninos-conteudo {
+      padding-left: 140px;
+      padding-right: 140px;
       text-align: center ;
    }
 

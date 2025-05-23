@@ -76,14 +76,14 @@
 
 /* Estilo Desktop */
 @media screen and (min-width: 1024px) {
-         .proposito-layout {
+      .proposito-layout {
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      gap: 50px;
       padding: 50px;
       padding-top: 130px;
-      padding-bottom: 100px;   }
+      padding-bottom: 100px; 
+   }
 
    .proposito-frames h1 {
       font-family: "Poppins";

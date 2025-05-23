@@ -141,8 +141,19 @@
    .introducao-frame {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      gap: 36px;
-      height: 470px;
+      gap: 40px;
+      height: 120vh;
+   }
+
+   .introducao-frame-1 {
+   }
+
+   .introducao-frame-2 {
+      padding-top: 100px;
+   }
+
+   .introducao-frame-3 {
+      padding-top: 200px;
    }
 
    .introducao-frame h3 {
