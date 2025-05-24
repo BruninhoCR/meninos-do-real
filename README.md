@@ -40,6 +40,7 @@ Projeto desenvolvido para uma ONG onde me voluntariei para ajuda-los a desenvolv
 * JavaScript (ES6)
 * Google Fonts
 * Sem frameworks ou bibliotecas externas
+* Hospedado no Google Sites + Dominio Freenom
 
 ### 📄 Licença
 Feito por Bruno César Rocha da Silva
