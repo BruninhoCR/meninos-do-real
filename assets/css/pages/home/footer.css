@@ -1,8 +1,9 @@
 /* Estilo Mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 730px) {
    
    .footer-conteudo {
       text-align: center;
+      align-items: center;
       padding: 25px;
    }
 

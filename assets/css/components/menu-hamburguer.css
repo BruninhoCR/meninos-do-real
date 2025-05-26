@@ -39,7 +39,7 @@
     right: 0;
     height: 100vh;
     width: 50%;
-    background-color: #313131;
+    background-color: #555555;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     z-index: 1000;

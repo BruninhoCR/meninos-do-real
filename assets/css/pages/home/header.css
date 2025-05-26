@@ -1,9 +1,30 @@
 /* Estilo Mobile*/
 @media screen and (max-width: 730px) {
    #header-bg {
-      background-color: black;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      background-image: url('/assets/img/aee954e3-2783-4696-a450-c0e43d0cdd26_20250121_131055_0000.png');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 500px; /* você pode ajustar essa altura */
+      z-index: 1;
    }
-   
+
+   #header-bg::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--cor-sombra-1);
+      opacity: 80%;
+      z-index: -1;
+   }
+
    .header-layout {
       display: flex;
       justify-content: space-between;
